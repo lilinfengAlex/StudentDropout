@@ -1,5 +1,5 @@
-# StudentDropout
-CollegeStudentDropout
+# StudentDropoutPredictionSystem
+CollegeStudentDropoutPrediction
 
 System Requirement:
 Python 3
@@ -17,7 +17,7 @@ This project processes Excel data, selects features of higher importance, trains
 Files Introduction：
 feature_select.py--Reduce the count of features from over 50 to 10
 dropout.py--Normalize data and train ANN model
-model.h5--Save model
+model.h5--Saved model
 
 Website:
 This project uses the Django framework to build web pages. After the web page obtains the input data, the saved model is called, and the output result is returned to the web page.
